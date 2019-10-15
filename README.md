@@ -2,4 +2,4 @@
 
 gpg backup
 
-moved from 4096 bit RSA to ECC Curve 25519
+ECC Curve 25519
