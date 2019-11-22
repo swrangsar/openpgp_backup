@@ -46,6 +46,22 @@ int mod_inv(int a, int m)
 	return 0;
 }
 
+int mod_exp(int a, int b, int m)
+{
+	int p = 1;
+
+	while (b) {
+		if (b & 1) {
+			p = mod_mul(p, a, m);
+		}
+
+		a = mod_mul(a, a, m);
+		b /= 2;
+	}
+
+	return p;
+}
+
 int main(const int argc, const char *argv[])
 {
 	printf("extended euclidean algorithm\n");
@@ -73,6 +89,13 @@ int main(const int argc, const char *argv[])
 		int inv = mod_inv(i, prime);
 		printf("%d * %d == %d mod %d\n", i, inv, (i*inv)%prime, prime);
 	}
+
+	for (int i=0; i < 64; ++i) {
+		printf("2^%d=%d mod 2\n",i, mod_exp(2, i, 2));
+		printf("2^%d=%d mod 3\n",i, mod_exp(2, i, 3));
+		printf("2^%d=%d mod 7\n",i, mod_exp(2, i, 7));
+	}
+
 
 	return 0;
 }
