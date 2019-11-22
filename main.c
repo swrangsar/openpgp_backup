@@ -29,6 +29,23 @@ int egcd(int a, int b, int *const ps, int *const pt)
 	return b;
 }
 
+int mod_mul(int a, int b, int m)
+{
+	return ((a%m)*(b%m))%m;
+}
+
+int mod_inv(int a, int m)
+{
+	int inv=0;
+	int t = 0;
+
+	if (1 == egcd(a, m, &inv, &t)) {
+		return ((inv % m) + m) % m;
+	}
+
+	return 0;
+}
+
 int main(const int argc, const char *argv[])
 {
 	printf("extended euclidean algorithm\n");
@@ -48,6 +65,14 @@ int main(const int argc, const char *argv[])
 
 	if (gcd == s*a + t*b)
 		printf("check\n");
+
+	int prime = 29;
+	
+	printf("\ntest prime is %d\n", prime);
+	for (int i=1; i < prime; ++i) {
+		int inv = mod_inv(i, prime);
+		printf("%d * %d == %d mod %d\n", i, inv, (i*inv)%prime, prime);
+	}
 
 	return 0;
 }
