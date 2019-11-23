@@ -29,12 +29,12 @@ int egcd(int a, int b, int *const ps, int *const pt)
 	return b;
 }
 
-int mod_mul(int a, int b, int m)
+int mmul(int a, int b, int m)
 {
 	return ((a%m)*(b%m))%m;
 }
 
-int mod_inv(int a, int m)
+int minv(int a, int m)
 {
 	int inv=0;
 	int t = 0;
@@ -46,17 +46,16 @@ int mod_inv(int a, int m)
 	return 0;
 }
 
-int mod_exp(int a, int b, int m)
+int mexp(int a, int b, int m)
 {
 	int p = 1;
 
 	while (b) {
-		if (b & 1) {
-			p = mod_mul(p, a, m);
-		}
+		if (b & 1)
+			p = mmul(p, a, m);
 
-		a = mod_mul(a, a, m);
-		b /= 2;
+		a = mmul(a, a, m);
+		b >>= 1;
 	}
 
 	return p;
@@ -86,16 +85,15 @@ int main(const int argc, const char *argv[])
 	
 	printf("\ntest prime is %d\n", prime);
 	for (int i=1; i < prime; ++i) {
-		int inv = mod_inv(i, prime);
+		int inv = minv(i, prime);
 		printf("%d * %d == %d mod %d\n", i, inv, (i*inv)%prime, prime);
 	}
 
 	for (int i=0; i < 64; ++i) {
-		printf("2^%d=%d mod 2\n",i, mod_exp(2, i, 2));
-		printf("2^%d=%d mod 3\n",i, mod_exp(2, i, 3));
-		printf("2^%d=%d mod 7\n",i, mod_exp(2, i, 7));
+		printf("2^%d=%d mod 2\n",i, mexp(2, i, 2));
+		printf("2^%d=%d mod 3\n",i, mexp(2, i, 3));
+		printf("2^%d=%d mod 7\n",i, mexp(2, i, 7));
 	}
-
 
 	return 0;
 }
