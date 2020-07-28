@@ -14,7 +14,6 @@ function sync-git-repo {
 }
 
 gpg --refresh-keys --keyserver hkps://keys.openpgp.org
-gpg --refresh-keys
 
 fdm -vv fetch
 
