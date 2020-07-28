@@ -1,19 +1,23 @@
 #!/bin/bash
 
+function sync-git-repo {
+	local REPODIR="$1"
+	
+	echo "syncing repo ${REPODIR}..."
+	if [ -d $REPODIR ]; then
+		cd $REPODIR
+		git fetch
+		git push
+	else
+		echo "warn: could not sync repo ${REPODIR}"
+	fi
+}
 
 gpg --refresh-keys --keyserver hkps://keys.openpgp.org
+gpg --refresh-keys
 
 fdm -vv fetch
 
 
-cd /home/swrangsar/src/openpgp_backup/
-pwd
-git pull
-git push
-git pull
-
-cd /home/swrangsar/src/backup_gpg/
-pwd
-git pull
-git push
-git pull
+sync-git-repo ~/src/openpgp_backup/
+sync-git-repo ~/src/backup_gpg/
