@@ -279,7 +279,7 @@ include /etc/sway/config.d/*
 hide_edge_borders both
 
 # Brightness key bindings
-bindsym XF86MonBrightnessUp exec xbacklight -inc 1
-bindsym XF86MonBrightnessDown exec xbacklight -dec 1
+bindsym XF86MonBrightnessUp exec light -A 1
+bindsym XF86MonBrightnessDown exec light -U 1
 
 xwayland disable
