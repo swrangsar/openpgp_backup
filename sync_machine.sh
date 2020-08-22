@@ -1,10 +1,10 @@
 #!/bin/sh
 
-function sync_git_repo {
-	local REPODIR="$1"
+sync_git_repo() {
+	REPODIR="$1"
 	
 	echo "syncing repo ${REPODIR}..."
-	if [ -d ${REPODIR} ]; then
+	if [ -d "${REPODIR}" ]; then
 		cd ${REPODIR}
 		git fetch
 		git push
