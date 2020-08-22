@@ -5,7 +5,7 @@ sync_git_repo() {
 	
 	echo "syncing repo ${REPODIR}..."
 	if [ -d "${REPODIR}" ]; then
-		cd ${REPODIR}
+		cd "${REPODIR}" || (echo "warn: cd ${REPODIR} failed"; return)
 		git fetch
 		git push
 	else
