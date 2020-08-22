@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-function sync-git-repo {
+function sync_git_repo {
 	local REPODIR="$1"
 	
 	echo "syncing repo ${REPODIR}..."
@@ -18,5 +18,5 @@ gpg --refresh-keys --keyserver hkps://keys.openpgp.org
 fdm -vv fetch
 
 
-sync-git-repo ~/src/openpgp_backup/
-sync-git-repo ~/src/backup_gpg/
+sync_git_repo ~/src/openpgp_backup/
+sync_git_repo ~/src/backup_gpg/
