@@ -7,7 +7,7 @@ sync_git_repo() {
 	cd "${REPODIR}" && git fetch && git push
 }
 
-gpg --refresh-keys --keyserver hkps://keys.openpgp.org
+gpg2 --refresh-keys --keyserver hkps://keys.openpgp.org
 
 fdm -vv fetch
 
