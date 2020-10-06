@@ -15,6 +15,6 @@ fdm -vv fetch
 sync_git_repo ~/src/openpgp_backup/
 sync_git_repo ~/src/backup_gpg/
 
-vdirsyncer discover
-vdirsyncer sync
-vdirsyncer metasync
+#vdirsyncer discover
+#vdirsyncer sync
+#vdirsyncer metasync
