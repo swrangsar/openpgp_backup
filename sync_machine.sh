@@ -12,8 +12,8 @@ gpg2 --refresh-keys --keyserver hkps://keys.openpgp.org
 fdm -vv fetch
 
 
-sync_git_repo ~/src/openpgp_backup/
-sync_git_repo ~/src/backup_gpg/
+sync_git_repo ~/repos/openpgp_backup/
+sync_git_repo ~/repos/backup_gpg/
 
 #vdirsyncer discover
 #vdirsyncer sync
