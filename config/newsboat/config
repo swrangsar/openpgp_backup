@@ -1,0 +1,5 @@
+auto-reload yes
+reload-threads 2
+
+include /usr/local/share/doc/newsboat/contrib/colorschemes/inkpot
+browser "links %u"
