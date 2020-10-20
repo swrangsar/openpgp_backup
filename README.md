@@ -26,7 +26,9 @@ syspatch
 fw_update
 sysmerge
 
-pkg_add dwm st slstatus surf fdm rsync password-store sic sxiv feh age gnupg firefox neomutt links+ noice pstree
+pkg_add dwm st slstatus surf fdm rsync
+
+pkg_add password-store sic sxiv feh age gnupg firefox neomutt links+ noice pstree
 
 
-### use bios/mbr mode or CSM mode to enable external keyboard in UKC
+## use bios/mbr mode or CSM mode to enable external keyboard in UKC
