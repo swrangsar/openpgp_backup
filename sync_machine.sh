@@ -4,7 +4,7 @@ sync_git_repo() {
 	REPODIR="$1"
 	
 	echo "syncing repo ${REPODIR}..."
-	cd "${REPODIR}" && git fetch && git push
+	cd "${REPODIR}" && git pull && git push
 }
 
 gpg2 --refresh-keys --keyserver hkps://keys.openpgp.org
