@@ -14,9 +14,9 @@ AddKeysToAgent yes
 chmod a+s /usr/local/bin/sway
 
 
-## openbsd 6.7
+## openbsd 6.8
 
-### can do mail -s "sub ject" user@host.domain
+### can do mail -s "subject" user@host.domain
 if we set up /etc/mail/smtpd.conf properly as a relay
 with user:passwd at /etc/mail/secrets
 
@@ -25,8 +25,8 @@ with user:passwd at /etc/mail/secrets
 syspatch
 fw_update
 sysmerge
+
 pkg_add dwm st slstatus surf fdm rsync password-store sic sxiv feh age gnupg firefox neomutt links+ noice pstree
 
 
 ### use bios/mbr mode or CSM mode to enable external keyboard in UKC
-
