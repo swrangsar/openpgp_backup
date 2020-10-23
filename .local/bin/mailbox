@@ -2,9 +2,6 @@
 
 # Displays number of unread mail and an loading icon if updating.
 
+unread=`find $HOME/Mail/cock/INBOX/new/* -type f 2>/dev/null | wc -l`
 
-unread="`find $HOME/Mail/cock/INBOX/new/* -type f 2>/dev/null | wc -l`"
-
-pgrep -x fdm >/dev/null 2>&1 && icon="🔃"
-
-[ "$unread" = "0" ] && [ "$icon" = "" ] || printf "📬 %d$icon" $unread
+printf "📬  %d" $unread
