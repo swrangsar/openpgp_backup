@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Prints all batteries, their percentage remaining and an emoji corresponding
+
+capacity="`apm -l`"
+case `apm -b` in
+	0) status="⚡" ;;
+	1) status="🔋" ;;
+	2) status="🔋" ;;
+	3) status="🔌" ;;
+	4) status="♻️" ;;
+	255) status="♻️" ;;
+esac
+
+
+printf "%s %s%%" $status  $capacity
+
