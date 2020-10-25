@@ -34,6 +34,6 @@ pkg_add password-store sic sxiv feh age gnupg firefox neomutt links+ noice pstre
 ## use bios/mbr mode or CSM mode to enable external keyboard in UKC
 
 
-add hosts file from github steven to /etc/hosts for adware blocking
-\# head /etc/resolv.conf.tail
+add hosts file from github steven to /etc/hosts for adware blocking  
+\# head /etc/resolv.conf.tail  
 lookup file bind
