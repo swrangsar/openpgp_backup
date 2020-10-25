@@ -15,6 +15,8 @@ fdm -vv fetch
 sync_git_repo $HOME/repos/openpgp_backup/
 sync_git_repo $HOME/repos/backup_gpg/
 
+pass git pull && pass git push
+
 #vdirsyncer discover
 #vdirsyncer sync
 #vdirsyncer metasync
