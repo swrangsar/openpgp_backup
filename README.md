@@ -37,3 +37,5 @@ pkg_add password-store sic sxiv feh age gnupg firefox neomutt links+ noice pstre
 add hosts file from github steven to /etc/hosts for adware blocking  
 \# head /etc/resolv.conf.tail  
 lookup file bind
+
+do not symlink; use rsync to update the files instead before push
