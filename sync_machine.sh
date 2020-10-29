@@ -20,8 +20,8 @@ cd $HOME/repos/openpgp_backup &&
 	echo "rsync dotfiles..." &&
 	rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ &&
 	rsync -axPuv $HOME/.config/youtube-dl/config $HOME/repos/openpgp_backup/.config/youtube-dl/ &&
-	git status &&
 	git commit -am "dotfiles update" &&
+	git status &&
 	git push
 
 # sync_git_repo $HOME/repos/backup_gpg/
@@ -30,8 +30,8 @@ cd $HOME/repos/backup_gpg &&
 	git pull &&
 	echo "rsync dotfiles backup_gpg..." &&
 	rsync -axPuv $HOME/.config/mutt/muttrc $HOME/repos/backup_gpg/.config/mutt/ &&
-	git status &&
 	git commit -am "dotfile update" &&
+	git status &&
 	git push
 
 pass git pull && pass git push
