@@ -17,12 +17,12 @@ fdm -vv fetch
 echo "syncing openpgp_backup..."
 cd $HOME/repos/openpgp_backup &&
 	git pull &&
-	echo "test" &&
+	echo "rsync dotfiles..." &&
 	rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ &&
 	rsync -axPuv $HOME/.config/youtube-dl/config $HOME/repos/openpgp_backup/.config/youtube-dl/ &&
-	echo "rsync tested" &&
-	git commit -am "dotfiles update" \
-	&& git push
+	git commit -am "dotfiles update" &&
+	git push
+
 sync_git_repo $HOME/repos/backup_gpg/
 
 pass git pull && pass git push
