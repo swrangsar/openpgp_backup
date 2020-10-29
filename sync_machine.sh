@@ -17,7 +17,6 @@ fdm -vv fetch
 echo "syncing openpgp_backup..."
 cd $HOME/repos/openpgp_backup &&
 	git pull &&
-	git status &&
 	echo "rsync dotfiles..." &&
 	rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ &&
 	rsync -axPuv $HOME/.config/youtube-dl/config $HOME/repos/openpgp_backup/.config/youtube-dl/ &&
@@ -29,7 +28,6 @@ cd $HOME/repos/openpgp_backup &&
 echo "syncing backup_gpg..."
 cd $HOME/repos/backup_gpg &&
 	git pull &&
-	git status &&
 	echo "rsync dotfiles backup_gpg..." &&
 	rsync -axPuv $HOME/.config/mutt/muttrc $HOME/repos/backup_gpg/.config/mutt/ &&
 	git status &&
