@@ -25,7 +25,16 @@ cd $HOME/repos/openpgp_backup &&
 	git commit -am "dotfiles update" &&
 	git push
 
-sync_git_repo $HOME/repos/backup_gpg/
+# sync_git_repo $HOME/repos/backup_gpg/
+echo "syncing backup_gpg..."
+cd $HOME/repos/backup_gpg &&
+	git pull &&
+	git status &&
+	echo "rsync dotfiles backup_gpg..." &&
+	rsync -axPuv $HOME/.config/mutt/muttrc $HOME/repos/backup_gpg/.config/mutt/ &&
+	git status &&
+	git commit -am "dotfile update" &&
+	git push
 
 pass git pull && pass git push
 
