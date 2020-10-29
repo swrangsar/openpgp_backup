@@ -16,6 +16,7 @@ fdm -vv fetch
 # sync_git_repo $HOME/repos/openpgp_backup/
 echo "syncing openpgp_backup..."
 cd $HOME/repos/openpgp_backup \
+	&& echo "test" \
 	&& git pull \
 	&& rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ \
 	&& rsync -axPuv $HOME/.config/youtube-dl/config $HOME/repos/openpgp_backup/.config/youtube-dl/ \
