@@ -4,6 +4,9 @@ super + Return
 super + e
     $TERMINAL -e neomutt
 
+super + w
+    $BROWSER
+
 super + Home
     maim $HOME/Pictures/$(date +%s).png
 
