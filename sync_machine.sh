@@ -1,19 +1,11 @@
 #!/bin/sh
 
-sync_git_repo() {
-	REPODIR="$1"
-	
-	echo "syncing repo ${REPODIR}..."
-	cd "${REPODIR}" && git pull && git push
-}
 
 gpg2 --refresh-keys --keyserver hkps://keys.openpgp.org
 
 fdm -vv fetch
 
 
-
-# sync_git_repo $HOME/repos/openpgp_backup/
 echo "syncing openpgp_backup..."
 cd $HOME/repos/openpgp_backup &&
 	git pull &&
@@ -24,7 +16,6 @@ cd $HOME/repos/openpgp_backup &&
 	git status &&
 	git push
 
-# sync_git_repo $HOME/repos/backup_gpg/
 echo "syncing backup_gpg..."
 cd $HOME/repos/backup_gpg &&
 	git pull &&
