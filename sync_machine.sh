@@ -30,6 +30,7 @@ cd $HOME/repos/backup_gpg &&
 	git pull &&
 	echo "rsync dotfiles backup_gpg..." &&
 	rsync -axPuv $HOME/.config/mutt/muttrc $HOME/repos/backup_gpg/.config/mutt/ &&
+	rsync -axPuv $HOME/.fdm.conf $HOME/repos/backup_gpg/ &&
 	git commit -am "dotfile update" &&
 	git status &&
 	git push
