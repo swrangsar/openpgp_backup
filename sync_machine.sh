@@ -31,7 +31,9 @@ pass git pull && pass git push
 
 if [ $(date +%s) -gt $(expr `stat -f %m $HOME/.cache/hosts` + 86400) ]; then
 	curl -o $HOME/.cache/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-	su root -c "rsync $HOME/.cache/hosts /etc/hosts"
+	echo '127.0.0.1 localhost '$(hostname -s)' '$(hostname) >> $HOME/.cache/hosts
+	echo '::1 localhost '$(hostname -s)' '$(hostname) >> $HOME/.cache/hosts
+	su root -c 'rsync '$HOME'/.cache/hosts /etc/hosts'
 fi
 
 #vdirsyncer discover
