@@ -29,6 +29,11 @@ cd $HOME/repos/backup_gpg &&
 
 pass git pull && pass git push
 
+if [ $(date +%s) -gt $(stat -f %m $HOME/.cache/hosts) ]; then
+	curl -o $HOME/.cache/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+	su root -c "rsync $HOME/.cache/hosts /etc/hosts"
+fi
+
 #vdirsyncer discover
 #vdirsyncer sync
 #vdirsyncer metasync
