@@ -12,6 +12,7 @@ cd $HOME/repos/openpgp_backup &&
 	echo "rsync dotfiles..." &&
 	rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ &&
 	rsync -axPuv $HOME/.config/youtube-dl/config $HOME/repos/openpgp_backup/.config/youtube-dl/ &&
+	rsync -axPuv $HOME/.local/bin/{battery,mailbox} $HOME/repos/openpgp_backup/.local/bin &&
 	git commit -am "dotfiles update" &&
 	git status &&
 	git push
