@@ -29,7 +29,7 @@ cd $HOME/repos/backup_gpg &&
 
 pass git pull && pass git push
 
-if [ $(date +%s) -gt $(stat -f %m $HOME/.cache/hosts) ]; then
+if [ $(date +%s) -gt $(expr `stat -f %m $HOME/.cache/hosts` + 86400) ]; then
 	curl -o $HOME/.cache/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 	su root -c "rsync $HOME/.cache/hosts /etc/hosts"
 fi
