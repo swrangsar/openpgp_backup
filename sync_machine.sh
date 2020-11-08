@@ -13,7 +13,7 @@ cd $HOME/repos/openpgp_backup &&
 	rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ &&
 	rsync -axPuv $HOME/.config/youtube-dl/config $HOME/repos/openpgp_backup/.config/youtube-dl/ &&
 	rsync -axPuv $HOME/.local/bin/{battery,mailbox} $HOME/repos/openpgp_backup/.local/bin &&
-	git commit -am "dotfiles update" &&
+	git commit -am "dotfile update" &&
 	git status &&
 	git push
 
@@ -27,7 +27,6 @@ cd $HOME/repos/backup_gpg &&
 	git status &&
 	git push
 
-pass git pull && pass git push
 
 if [ $(date +%s) -gt $(expr `stat -f %m $HOME/.cache/hosts` + 604800) ]; then
 	curl -o $HOME/.cache/hosts https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
