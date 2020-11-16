@@ -2,6 +2,9 @@
 
 gpg backup
 
+#####  to paste terminal output directly
+cat /dev/sndstat | nc termbin.com 9999
+
 ECC Curve 25519
 ubuntu 19.10 test
 gentoo linux 5.4.48
