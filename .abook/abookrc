@@ -1,0 +1,13 @@
+set preserve_fields=all
+set autosave=true
+
+set show_all_emails=true
+
+set mutt_command=neomutt
+set mutt_return_all_emails=true
+
+set www_command=links
+set sort_field=name
+
+set add_email_prevent_duplicates=true
+set show_cursor=false
