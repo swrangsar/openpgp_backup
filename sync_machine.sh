@@ -13,6 +13,7 @@ cd $HOME/repos/openpgp_backup &&
 	rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ &&
 	rsync -axPuv $HOME/.config/youtube-dl/config $HOME/repos/openpgp_backup/.config/youtube-dl/ &&
 	rsync -axPuv $HOME/.local/bin/{battery,mailbox} $HOME/repos/openpgp_backup/.local/bin &&
+	rsync -axPuv $HOME/.abook/abookrc $HOME/repos/openpgp_backup/.abook/ &&
 	git commit -am "dotfile update" &&
 	git status &&
 	git push
