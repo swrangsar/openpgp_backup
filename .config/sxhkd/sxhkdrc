@@ -18,3 +18,6 @@ super + F10
 
 super + F11
     sndioctl output.level=+0.1
+
+super + p
+    passmenu
