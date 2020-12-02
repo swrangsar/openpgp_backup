@@ -1,6 +1,7 @@
 ImageMagick--
 abook--
 age--
+bombadillo--
 dictd-client--
 dmenu--
 dwm--
@@ -8,6 +9,7 @@ fdm--
 feh--
 firefox--
 git--
+go--
 links+--no_x11
 lynx--
 maim--
