@@ -36,6 +36,11 @@ if [ ! -f $HOME/.cache/hosts ] || [ $(date +%s) -gt $(expr `stat -f %m $HOME/.ca
 	su root -c 'rsync -axPuv '$HOME'/.cache/hosts /etc/hosts'
 fi
 
+if [ -d $HOME/.password-store ] && [ -d /data/.password-store ]; then
+	echo "sync password store to /data/ ..."
+	rsync -axPuv $HOME/.password-store /data/
+fi
+
 #vdirsyncer discover
 #vdirsyncer sync
 #vdirsyncer metasync
