@@ -21,3 +21,6 @@ super + F11
 
 super + p
     $HOME/.local/bin/passmenu
+
+super + o
+    $HOME/.local/bin/passmenu
