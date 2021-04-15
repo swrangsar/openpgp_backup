@@ -9,6 +9,7 @@ cd $HOME/repos/openpgp_backup &&
 	git pull &&
 	echo "rsync dotfiles..." &&
 	rsync -axPuv $HOME/.config/sxhkd/sxhkdrc $HOME/repos/openpgp_backup/.config/sxhkd/ &&
+	rsync -axPuv $HOME/.local/bin/sb-forecast $HOME/repos/openpgp_backup/.local/bin/ &&
 	rsync -axPuv $HOME/.local/bin/sb-mailbox $HOME/repos/openpgp_backup/.local/bin/ &&
 	rsync -axPuv $HOME/.local/bin/transadd $HOME/repos/openpgp_backup/.local/bin/ &&
 	git commit -am "dotfile update" &&
