@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # formula file format
-# stock	RoA P/E
+# stock, RoA, P/E
 #
 # algo: magic formula investing
 # 
