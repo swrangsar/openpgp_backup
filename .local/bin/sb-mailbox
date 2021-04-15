@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Displays number of unread mail and an loading icon if updating.
+
+# unread=`find $HOME/.local/share/mail/cock/INBOX/new/* -type f 2>/dev/null | wc -l`
+
+unread="$(find "${XDG_DATA_HOME:-$HOME/.local/share}"/mail/*/[Ii][Nn][Bb][Oo][Xx]/new/* -type f 2>/dev/null | wc -l 2>/dev/null)"
+
+printf "📬 %d" $unread
