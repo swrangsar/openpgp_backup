@@ -1,0 +1,10 @@
+#!/bin/sh
+
+weatherreport="$HOME/.local/share/weatherreport"
+
+getforecast() { curl -sf "wttr.in/$LOCATION?format="%c%t"" > "$weatherreport" || exit 1 ;}
+
+[ "$(stat -c %y "$weatherreport" 2>/dev/null | cut -d' ' -f1)" = "$(date '+%Y-%m-%d')" ] ||
+	getforecast
+
+head -1 "$weatherreport"
