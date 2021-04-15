@@ -14,3 +14,6 @@ cd $HOME/repos/openpgp_backup &&
 	git commit -am "dotfile update" &&
 	git status &&
 	git push
+
+[ -d $HOME/.password-store ] && [ -d /media/password-store ] &&
+	rsync -axPuv $HOME/.password-store/  /media/password-store
