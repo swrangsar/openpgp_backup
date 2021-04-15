@@ -3,6 +3,7 @@
 gpg --refresh-keys --keyserver hkps://keys.openpgp.org
 
 fdm -vv fetch
+pkill -RTMIN+12 dwmblocks
 
 echo "syncing openpgp_backup..."
 cd $HOME/repos/openpgp_backup &&
@@ -18,3 +19,5 @@ cd $HOME/repos/openpgp_backup &&
 
 [ -d $HOME/.password-store ] && [ -d /media/password-store ] &&
 	rsync -axPuv $HOME/.password-store/  /media/password-store
+
+pkill -RTMIN+5 dwmblocks
