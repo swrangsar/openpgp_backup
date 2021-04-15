@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Displays number of unread mail and an loading icon if updating.
-
-unread=`find $HOME/Mail/cock/INBOX/new/* -type f 2>/dev/null | wc -l`
-
-printf "📬 %d" $unread
