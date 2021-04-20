@@ -1,0 +1,4 @@
+for fdm
+---------
+
+* remember to set up the fdm cache directory, otherwise it keeps redownloading the same emails.
