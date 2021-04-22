@@ -2,3 +2,11 @@ for fdm
 ---------
 
 * remember to set up the fdm cache directory, otherwise it keeps redownloading the same emails.
+
+
+a nice way to encrypt/decrypt files on linux (openssl)/openbsd (libressl) currently:
+* encrypt
+$ openssl enc -aes256 -iter 100000 -e -out filename.enc
+
+* decrypt
+$ openssl enc -aes256 -iter 100000 -d -in filename.enc
