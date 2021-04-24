@@ -45,4 +45,5 @@ do not symlink; use rsync to update the files instead before push
 
 ## Affiliate links to things i'm using
 
-* BlockFi [https://blockfi.com/?ref=2c227831](https://blockfi.com/?ref=2c227831) We both get $10 in Bitcoin when you deposit $100 in cryptocurrencies.
+[https://blockfi.com/?ref=2c227831](https://blockfi.com/?ref=2c227831) BlockFi. We both get $10 in Bitcoin when you deposit $100 in cryptocurrencies.
+[https://www.coinbase.com/join/basuma_hf](https://www.coinbase.com/join/basuma_hf) Coinbase. We both get $10 in Bitcoin when you buy or sell $100 in cryptocurrencies.
