@@ -43,6 +43,6 @@ lookup file bind
 
 do not symlink; use rsync to update the files instead before push
 
-## Referral links (if you would like to support)
+## Affiliate links to things i'm using
 
-* BlockFi `[https://blockfi.com/?ref=2c227831](https://blockfi.com/?ref=2c227831)`
+* BlockFi [https://blockfi.com/?ref=2c227831](https://blockfi.com/?ref=2c227831) We both get $10 in Bitcoin when you deposit $100 in cryptocurrencies.
