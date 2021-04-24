@@ -42,3 +42,7 @@ add hosts file from github steven to /etc/hosts for adware blocking
 lookup file bind
 
 do not symlink; use rsync to update the files instead before push
+
+## Referral links (if you would like to support)
+
+* BlockFi `[https://blockfi.com/?ref=2c227831](https://blockfi.com/?ref=2c227831)`
