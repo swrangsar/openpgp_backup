@@ -2,21 +2,22 @@
 
 gpg backup
 
-#####  to paste terminal output directly
-cat /dev/sndstat | nc termbin.com 9999
-
+## artix linux or bsd
 
 in .ssh/config
 AddKeysToAgent yes
 
+######  to paste terminal output directly
+cat /dev/sndstat | nc termbin.com 9999
+
 
 ## openbsd 6.8
 
-### can do mail -s "subject" user@host.domain
+#### can do mail -s "subject" user@host.domain
 if we set up /etc/mail/smtpd.conf properly as a relay
 with user:passwd at /etc/mail/secrets
 
-### packages to add
+#### packages to add
 
 syspatch
 fw_update
@@ -27,7 +28,8 @@ pkg_add dwm st fdm rsync
 pkg_add password-store sic sxiv feh gnupg firefox neomutt links+ noice pstree
 
 
-## use bios/mbr mode or CSM mode to enable external keyboard in UKC
+###### if laptop doesn't detect keyboard in UKC
+use bios/mbr mode or CSM mode to enable external keyboard in UKC
 
 
 add hosts file from github steven to /etc/hosts for adware blocking  
