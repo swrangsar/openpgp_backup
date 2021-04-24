@@ -44,5 +44,6 @@ lookup file bind
 do not symlink; use rsync to update the files instead before push
 
 
-#### Donate.
-Monero (XMR): 47omVYoY8EHbwHGm7LQMSj3EQzQsWPCZuEocBEsDFvLfB57nLM5vVtwhoZCcK7hDB6eGnos5qwShsYMvcnu8zhsgJaTjv2Y
+## Donations
+
+XMR: `47omVYoY8EHbwHGm7LQMSj3EQzQsWPCZuEocBEsDFvLfB57nLM5vVtwhoZCcK7hDB6eGnos5qwShsYMvcnu8zhsgJaTjv2Y`
