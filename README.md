@@ -43,13 +43,13 @@ lookup file bind
 
 do not symlink; use rsync to update the files instead before push
 
-## Affiliate links to things i use
+## Donate or affiliate links
 
 If you wish to donate
 
 XMR: `47omVYoY8EHbwHGm7LQMSj3EQzQsWPCZuEocBEsDFvLfB57nLM5vVtwhoZCcK7hDB6eGnos5qwShsYMvcnu8zhsgJaTjv2Y`
 
-OR
+OR affiliate links to things i use:
 
 [https://blockfi.com/?ref=2c227831](https://blockfi.com/?ref=2c227831) BlockFi. We both get $10 in Bitcoin when you deposit $100 in cryptocurrencies.
 [https://www.coinbase.com/join/basuma_hf](https://www.coinbase.com/join/basuma_hf) Coinbase. We both get $10 in Bitcoin when you buy or sell $100 in cryptocurrencies.
