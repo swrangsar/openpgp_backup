@@ -25,7 +25,7 @@ sysmerge
 
 pkg_add dwm st fdm rsync
 
-pkg_add password-store sic sxiv feh gnupg firefox neomutt links+ noice pstree
+pkg_add password-store sic sxiv feh gnupg neomutt links+ noice pstree
 
 
 ###### if laptop doesn't detect keyboard in UKC
@@ -43,6 +43,7 @@ do not symlink; use rsync to update the files instead before push
 If you wish to donate
 
 XMR: `47omVYoY8EHbwHGm7LQMSj3EQzQsWPCZuEocBEsDFvLfB57nLM5vVtwhoZCcK7hDB6eGnos5qwShsYMvcnu8zhsgJaTjv2Y`
+VRSC: `RThkNg6xeJfKswm8WDVd5XkXp6ALYzLE6h`
 
 OR affiliate links to things i use:
 
