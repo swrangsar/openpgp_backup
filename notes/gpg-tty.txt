@@ -1,0 +1,2 @@
+important to add the following in .zshrc or .bashrc:
+export GPG_TTY=$(tty)
