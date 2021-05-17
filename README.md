@@ -43,6 +43,7 @@ do not symlink; use rsync to update the files instead before push
 If you wish to donate
 
 Monero QR code:
+
 ![Monero(xmr) address QR code to donate to](images/xmr-addr.png "Monero address QR code to donate to")
 
 XMR: `47omVYoY8EHbwHGm7LQMSj3EQzQsWPCZuEocBEsDFvLfB57nLM5vVtwhoZCcK7hDB6eGnos5qwShsYMvcnu8zhsgJaTjv2Y`  
