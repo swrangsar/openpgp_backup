@@ -49,12 +49,6 @@ Monero QR code:
 Monero: ([XMR QR](pix/xmr-addr.png)) `47omVYoY8EHbwHGm7LQMSj3EQzQsWPCZuEocBEsDFvLfB57nLM5vVtwhoZCcK7hDB6eGnos5qwShsYMvcnu8zhsgJaTjv2Y`  
 
 
-Wownero QR code:
-
-![Wownero(wow) address QR code to donate to](pix/wow-addr.png "Wownero address QR code to donate to")
-
-Wownero: ([WOW QR](pix/wow-addr.png)) `Wo4iYqkqcp9cjoXXTRwZLeAayENpkqCpzRCYGHY3HT8P4WLtY5e1dMyMA7fSGw9bYoAtjQbbgiMfZQu35bm6KPrU33qgBAYVx`
-
 
 OR affiliate links to things i use:
 
