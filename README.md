@@ -53,5 +53,3 @@ Monero: ([XMR QR](pix/xmr-addr.png)) `47omVYoY8EHbwHGm7LQMSj3EQzQsWPCZuEocBEsDFv
 OR affiliate links to things i use:
 
 [https://blockfi.com/?ref=2c227831](https://blockfi.com/?ref=2c227831) BlockFi. We both get $10 in Bitcoin when you deposit $100 in cryptocurrencies.
-[https://www.coinbase.com/join/basuma_hf](https://www.coinbase.com/join/basuma_hf) Coinbase. We both get $10 in Bitcoin when you buy or sell $100 in cryptocurrencies.
-[https://groww.app.link/refe/swrangsar9986866](https://groww.app.link/refe/swrangsar9986866) Groww.in. We both get INR 100 when you activate your stock investment account.
