@@ -39,3 +39,9 @@ add hosts file from github steven to /etc/hosts for adware blocking
 lookup file bind
 
 do not symlink; use rsync to update the files instead before push
+
+# Donate and affiliate links
+
+Join me in using Vested to invest in US companies such as Tesla, Domino's Pizza, Google, and Facebook. Sign up with my link, and we’ll both get $10 when you fund your account. 
+https://vested.page.link/1DDFj8iF5VfEdVrq5
+
