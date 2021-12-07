@@ -52,3 +52,7 @@ https://vested.page.link/1DDFj8iF5VfEdVrq5
 Invest and trade with Kite by Zerodha, India’s largest retail stockbroker. Open an account now. https://zerodha.com/open-account?c=WHC528
 
 Honeygain app https://r.honeygain.me/SWRAN2C138
+
+Join me and 10 million Indians on Groww to invest in Stocks and Direct Mutual Funds.
+Earn your ₹100 reward straight to your Groww Balance to start investing by activating your account using this link. Limited time period offer only: 
+https://groww.app.link/refe/swrangsar9986866
