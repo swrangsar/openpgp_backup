@@ -42,6 +42,8 @@ do not symlink; use rsync to update the files instead before push
 
 # Donate and affiliate links or referrals
 
+Read or write on Publish0x.com https://www.publish0x.com?a=MvbmOXJneY
+
 Join binance.com https://accounts.binance.me/en/register?ref=169210818
 
 Join me in using Vested to invest in US companies such as Tesla, Domino's Pizza, Google, and Facebook. Sign up with my link, and we’ll both get $10 when you fund your account. 
