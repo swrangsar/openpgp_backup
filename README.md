@@ -42,7 +42,7 @@ do not symlink; use rsync to update the files instead before push
 
 # Donate and affiliate links or referrals
 
-Read or write on Publish0x.com https://www.publish0x.com?a=MvbmOXJneY
+Read or write about crypto and DeFi on Publish0x.com https://www.publish0x.com?a=MvbmOXJneY
 
 Join binance.com https://accounts.binance.me/en/register?ref=169210818
 
