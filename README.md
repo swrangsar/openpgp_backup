@@ -42,16 +42,21 @@ do not symlink; use rsync to update the files instead before push
 
 # Donate and affiliate links or referrals
 
+### Worldwide
+
 Read or write about crypto and DeFi on Publish0x.com https://www.publish0x.com?a=MvbmOXJneY
 
 Join binance.com https://accounts.binance.me/en/register?ref=169210818
+
+Honeygain app https://r.honeygain.me/SWRAN2C138
+
+### India
 
 Join me in using Vested to invest in US companies such as Tesla, Domino's Pizza, Google, and Facebook. Sign up with my link, and we’ll both get $10 when you fund your account. 
 https://vested.page.link/1DDFj8iF5VfEdVrq5
 
 Invest and trade with Kite by Zerodha, India’s largest retail stockbroker. Open an account now. https://zerodha.com/open-account?c=WHC528
 
-Honeygain app https://r.honeygain.me/SWRAN2C138
 
 Join me and 10 million Indians on Groww to invest in Stocks and Direct Mutual Funds.
 Earn your ₹100 reward straight to your Groww Balance to start investing by activating your account using this link. Limited time period offer only: 
