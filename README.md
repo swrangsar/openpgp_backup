@@ -49,6 +49,7 @@ Read or write about crypto and DeFi on Publish0x.com https://www.publish0x.com?a
 Join binance.com https://accounts.binance.me/en/register?ref=169210818
 
 Honeygain app https://r.honeygain.me/SWRAN2C138
+
 I am tracking the crypto market on CoinMarketCap. Click on my referral link to sign up and get rewarded when you accumulate 100 diamonds.https://coinmarketcap.com/invite?ref=LNUFE9TS
 
 
