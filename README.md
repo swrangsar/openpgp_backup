@@ -54,6 +54,9 @@ I am tracking the crypto market on CoinMarketCap. Click on my referral link to s
 
 Get up to $1000 of free IBKR stock when opening an account at Interactive Brokers! Sign up with my link. https://ibkr.com/referral/swrangsar905
 
+I’m saving money on International Transfers by sending money at No-Margin FX Rates with Instarem.  Use my referral code to Signup with them and earn 400 InstaPoints https://referral-link.onelink.me/gbf1/a43c48ca?referral_code=AeLuxQ
+
+
 ### South Asia
 
 Join me in using Vested to invest in US companies such as Tesla, Domino's Pizza, Google, and Facebook. Sign up with my link, and we’ll both get $10 when you fund your account. 
