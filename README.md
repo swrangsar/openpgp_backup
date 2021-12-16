@@ -56,6 +56,9 @@ Get up to $1000 of free IBKR stock when opening an account at Interactive Broker
 
 I’m saving money on International Transfers by sending money at No-Margin FX Rates with Instarem.  Use my referral code to Signup with them and earn 400 InstaPoints https://referral-link.onelink.me/gbf1/a43c48ca?referral_code=AeLuxQ
 
+Hey, I use Wise to send money abroad. Really easy and a lot cheaper than the bank! Give it a try with a fee-free transfer of up to 25,000 INR.
+
+https://wise.com/invite/asd/swrangsarb
 
 ### South Asia
 
