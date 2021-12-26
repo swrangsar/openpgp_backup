@@ -60,6 +60,10 @@ Hey, I use Wise to send money abroad. Really easy and a lot cheaper than the ban
 
 https://wise.com/invite/asd/swrangsarb
 
+
+https://revolut.com/r/swrangxd9g
+
+
 ### South Asia
 
 Join me in using Vested to invest in US companies such as Tesla, Domino's Pizza, Google, and Facebook. Sign up with my link, and we’ll both get $10 when you fund your account. 
