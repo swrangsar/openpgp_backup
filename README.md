@@ -83,3 +83,5 @@ Join me in using Vested to invest in US companies such as Tesla, Domino's Pizza,
 Invest and trade with Kite by Zerodha, India’s largest retail stockbroker. Open an account now. https://zerodha.com/open-account?c=WHC528
 
 Join me and 10 million Indians on Groww to invest in Stocks and Direct Mutual Funds. Earn your ₹100 reward straight to your Groww Balance to start investing by activating your account using this link. Limited time period offer only: https://groww.app.link/refe/swrangsar9986866
+
+you can invest on the Appreciate app! https://appreciatewealth.com/?referralCode=4s9j6u8
