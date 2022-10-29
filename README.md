@@ -85,3 +85,5 @@ Invest and trade with Kite by Zerodha, India’s largest retail stockbroker. Ope
 Join me and 10 million Indians on Groww to invest in Stocks and Direct Mutual Funds. Earn your ₹100 reward straight to your Groww Balance to start investing by activating your account using this link. Limited time period offer only: https://groww.app.link/refe/swrangsar9986866
 
 you can invest on the Appreciate app! https://appreciatewealth.com/?referralCode=4s9j6u8
+
+Lease financing https://www.gripinvest.in/?referralCode=SBA06F&utm_medium=Copy&utm_source=referralLink
