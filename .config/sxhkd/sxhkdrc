@@ -24,3 +24,6 @@ super + p
 
 super + o
     $HOME/.local/bin/passotpmenu
+
+super + Insert
+    xdotool type "$(xclip -o)"
