@@ -17,7 +17,7 @@ cd $HOME/repos/openpgp_backup &&
 	git status &&
 	git push
 
-[ -d $HOME/.password-store ] && [ -d /media/password-store ] &&
+## [ -d $HOME/.password-store ] && [ -d /media/password-store ] &&
 	rsync -axPuv $HOME/.password-store/  /media/password-store
 
 pkill -RTMIN+5 dwmblocks
