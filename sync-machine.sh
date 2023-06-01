@@ -11,5 +11,6 @@ cd $HOME/repos/openpgp_backup &&
 	git status &&
 	git push
 
+rsync -axPuv $HOME/.config/zsh/.* .config/zsh/
 
 pkill -RTMIN+5 dwmblocks
