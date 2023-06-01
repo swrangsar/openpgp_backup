@@ -1,2 +1,0 @@
-$(document).ready(function(){function pollAnim(){$(".error-section h1 span").addClass("error-text");setTimeout(function(){$(".error-section h1 span").removeClass("error-text");setTimeout(pollAnim,2000);},2000);}
-setTimeout(pollAnim,2000);})

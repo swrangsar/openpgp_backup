@@ -1,6 +1,0 @@
-2021/10/23-15:12:52.668 f8b Creating DB /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bhartiyayojanaye.com_0.indexeddb.leveldb since it was missing.
-2021/10/23-15:12:52.673 f8b Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bhartiyayojanaye.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/10/23-15:12:55.585 f17 Level-0 table #5: started
-2021/10/23-15:12:55.587 f17 Level-0 table #5: 583 bytes OK
-2021/10/23-15:12:55.588 f17 Delete type=0 #3
-2021/10/23-15:12:55.589 f17 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

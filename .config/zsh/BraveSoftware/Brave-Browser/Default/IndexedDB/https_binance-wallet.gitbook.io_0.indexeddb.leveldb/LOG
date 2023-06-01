@@ -1,5 +1,0 @@
-2021/05/07-17:51:50.951 26ee Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_binance-wallet.gitbook.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/07-17:51:58.633 26ee Level-0 table #5: started
-2021/05/07-17:51:58.634 26ee Level-0 table #5: 1139 bytes OK
-2021/05/07-17:51:58.636 26ee Delete type=0 #3
-2021/05/07-17:51:58.636 26ee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

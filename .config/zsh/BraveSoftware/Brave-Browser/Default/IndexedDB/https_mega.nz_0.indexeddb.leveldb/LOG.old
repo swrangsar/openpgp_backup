@@ -1,8 +1,0 @@
-2021/04/23-20:37:59.821 12ec Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/23-20:37:59.821 12ec Recovering log #7
-2021/04/23-20:37:59.821 12ec Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/000007.log 
-2021/04/23-20:38:01.834 11d4 Level-0 table #11: started
-2021/04/23-20:38:01.834 11d4 Level-0 table #11: 0 bytes OK
-2021/04/23-20:38:01.836 11d4 Delete type=0 #7
-2021/04/23-20:38:01.836 11d4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/04/23-20:38:01.836 11d4 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

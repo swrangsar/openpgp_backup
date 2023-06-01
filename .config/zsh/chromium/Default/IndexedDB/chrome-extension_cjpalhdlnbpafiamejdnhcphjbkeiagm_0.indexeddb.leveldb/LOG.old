@@ -1,8 +1,0 @@
-2021/03/12-23:14:43.349 3568 Reusing MANIFEST /home/swrangsar/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2021/03/12-23:14:43.350 3568 Recovering log #7
-2021/03/12-23:14:43.350 3568 Reusing old log /home/swrangsar/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000007.log 
-2021/03/12-23:14:46.119 3562 Level-0 table #11: started
-2021/03/12-23:14:46.119 3562 Level-0 table #11: 0 bytes OK
-2021/03/12-23:14:46.372 3562 Delete type=0 #7
-2021/03/12-23:14:46.373 3562 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/03/12-23:14:46.373 3562 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
