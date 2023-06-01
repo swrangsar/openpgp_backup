@@ -1,0 +1,4 @@
+2023/05/27-21:01:43.821 10b9 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
+2023/05/27-21:01:43.821 10b9 Recovering log #4
+2023/05/27-21:01:43.829 10b9 (ignoring error) /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000004.log: dropping 130 bytes; Corruption: missing start of fragmented record(2)
+2023/05/27-21:01:43.830 10b9 Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000004.log 

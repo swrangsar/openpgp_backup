@@ -1,0 +1,34 @@
+set editor = "nvim"
+
+# set folder = "imaps://swrangsar@disroot.org@disroot.org:993"
+set folder = "~/.local/share/mail/cock/"
+set smtp_url = "smtps://swrangsar@disroot.org@disroot.org:465"
+
+set smtp_pass = "`pass deprecated/disroot | head -1`"
+
+set smtp_authenticators = 'plain'
+
+set from = "swrangsar@disroot.org"
+set realname = "swrangsar basumatary"
+
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+
+mailboxes =INBOX =Sent =Trash =Drafts =Junk
+
+set sort = threads
+set sort_browser = date
+set sort_aux=reverse-last-date-received
+
+##############
+#  Contacts  #
+##############
+
+# When looking for contacts, use this command
+set query_command= "abook --mutt-query '%s'"
+# Add current sender to address book
+macro index,pager  a "<pipe-message>abook --add-email-quiet<return>" "Add this sender to Abook"
+# Auto-complete email addresses by pushing tab
+bind editor <Tab> complete-query

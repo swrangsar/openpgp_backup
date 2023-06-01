@@ -1,0 +1,7 @@
+2021/11/16-16:57:53.283 45f8 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/16-16:57:53.283 45f8 Recovering log #35
+2021/11/16-16:57:53.287 45f8 Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/000035.log 
+2021/11/16-16:57:53.332 3ffa Level-0 table #40: started
+2021/11/16-16:57:53.334 3ffa Level-0 table #40: 138905 bytes OK
+2021/11/16-16:57:53.336 3ffa Delete type=0 #35
+2021/11/16-16:57:53.336 45f8 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

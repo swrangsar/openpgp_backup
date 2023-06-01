@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "ethereum-remote-client@0.1.107",
+      "/home/ubuntu/workspace/brave-core-ext-ethereum-remote-client-update-publish"
+    ]
+  ],
+  "_from": "ethereum-remote-client@0.1.107",
+  "_id": "ethereum-remote-client@0.1.107",
+  "_inBundle": false,
+  "_integrity": "sha512-vCMQYP313egGKPdpnA0Mx88OwwZjM9dw2nnE8DP5kJInvU2HNa+sAvIYdP5gC4aluC0PwGTXBaya01qwAyG8hA==",
+  "_location": "/ethereum-remote-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ethereum-remote-client@0.1.107",
+    "name": "ethereum-remote-client",
+    "escapedName": "ethereum-remote-client",
+    "rawSpec": "0.1.107",
+    "saveSpec": null,
+    "fetchSpec": "0.1.107"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ethereum-remote-client/-/ethereum-remote-client-0.1.107.tgz",
+  "_spec": "0.1.107",
+  "_where": "/home/ubuntu/workspace/brave-core-ext-ethereum-remote-client-update-publish",
+  "config": {
+    "mnemonic": "people carpet cluster attract ankle motor ozone mass dove original primary mask"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {},
+  "name": "ethereum-remote-client",
+  "resolutions": {
+    "**/knex/minimist": "^1.2.5",
+    "**/optimist/minimist": "^1.2.5",
+    "**/socketcluster/minimist": "^1.2.5",
+    "serialize-javascript": "^3.1.0",
+    "dot-prop": "4.2.1",
+    "elliptic": "^6.5.3",
+    "apollo-server-core": "^2.14.2",
+    "apollo-server-express": "^2.14.2",
+    "yargs-parser": "13.1.2",
+    "bl": "^3.0.1",
+    "node-fetch": "^2.6.1",
+    "object-path": "^0.11.5",
+    "axios": "^0.21.1",
+    "prismjs": "1.24.0",
+    "immer": "8.0.1",
+    "netmask": "^2.0.1",
+    "ganache-core/lodash": "^4.17.21",
+    "underscore": "^1.12.1",
+    "url-parse": "^1.5.2",
+    "ssri": "^6.0.2",
+    "hosted-git-info": "^3.0.8",
+    "**/swarm-js/tar": "^4.4.18",
+    "**/node-pre-gyp/tar": "^4.4.18",
+    "geckodriver/tar": "^6.1.9",
+    "**/node-sass/node-gyp/tar": "^4.4.18",
+    "**/path-parse": "^1.0.7",
+    "**/jszip": "^3.7.0",
+    "**/pac-resolver": "^5.0.0"
+  },
+  "scripts": {},
+  "version": "0.1.107"
+}

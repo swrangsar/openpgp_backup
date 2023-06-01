@@ -1,0 +1,15 @@
+2021/05/01-15:48:24.828 544 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wownero.hashvault.pro_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/01-15:48:24.828 544 Recovering log #39
+2021/05/01-15:48:24.828 544 Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wownero.hashvault.pro_0.indexeddb.leveldb/000039.log 
+2021/05/01-15:49:15.464 501 Level-0 table #44: started
+2021/05/01-15:49:15.465 501 Level-0 table #44: 5573 bytes OK
+2021/05/01-15:49:15.467 501 Delete type=0 #39
+2021/05/01-15:49:15.467 501 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/01-15:49:15.467 55e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xf0\xab\xfcv\x92wB\x00\x01b\x00f\x00o\x00n\x00t\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00n\x00t\x00s\x00.\x00g\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00c\x00o\x00m\x00/\x00s\x00/\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00a\x00n\x00s\x00p\x00r\x00o\x00/\x00v\x001\x003\x00/\x006\x00x\x00K\x003\x00d\x00S\x00B\x00Y\x00K\x00c\x00S\x00V\x00-\x00L\x00C\x00o\x00e\x00Q\x00q\x00f\x00X\x001\x00R\x00Y\x00O\x00o\x003\x00q\x00P\x00K\x007\x00l\x00u\x00j\x00V\x00j\x009\x00_\x00m\x00f\x00.\x00w\x00o\x00f\x00f\x002' @ 1792 : 1
+2021/05/01-15:49:15.467 55e Compacting 1@1 + 1@2 files
+2021/05/01-15:49:15.468 55e Generated table #45@1: 47 keys, 2545 bytes
+2021/05/01-15:49:15.468 55e Compacted 1@1 + 1@2 files => 2545 bytes
+2021/05/01-15:49:15.471 55e compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/01-15:49:15.471 55e Delete type=2 #41
+2021/05/01-15:49:15.471 55e Delete type=2 #44
+2021/05/01-15:49:15.471 55e Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xf0\xab\xfcv\x92wB\x00\x01b\x00f\x00o\x00n\x00t\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00n\x00t\x00s\x00.\x00g\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00c\x00o\x00m\x00/\x00s\x00/\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00a\x00n\x00s\x00p\x00r\x00o\x00/\x00v\x001\x003\x00/\x006\x00x\x00K\x003\x00d\x00S\x00B\x00Y\x00K\x00c\x00S\x00V\x00-\x00L\x00C\x00o\x00e\x00Q\x00q\x00f\x00X\x001\x00R\x00Y\x00O\x00o\x003\x00q\x00P\x00K\x007\x00l\x00u\x00j\x00V\x00j\x009\x00_\x00m\x00f\x00.\x00w\x00o\x00f\x00f\x002' @ 1792 : 1 .. (end); will stop at (end)

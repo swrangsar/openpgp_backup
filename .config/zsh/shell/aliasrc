@@ -1,0 +1,57 @@
+#!/bin/sh
+
+# swrangsar's aliases
+
+# Use neovim for vim if present.
+[ -f "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# Use $XINITRC variable if file exists.
+[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
+
+
+
+## previous startx alias before 27 May, 2023.
+## alias startx='ssh-agent startx'
+
+alias lf="lfub"
+alias \
+	yt="yt-dlp --embed-metadata -i" \
+	yta="yt -x -f bestaudio/best --audio-format vorbis"
+
+
+
+alias britannica="sdcv -u \"The Britannica Concise\""
+alias etymology="sdcv -u \"English Etymology\""
+alias thesaurus="sdcv -u \"English Thesaurus\""
+alias dict_merrian_webster="sdcv -u \"Merrian Webster 10th dictionary\""
+alias dict_oxford="sdcv -u \"Oxford Advanced Learner's Dictionary\""
+alias wn="sdcv -u \"WordNet\""
+
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	bc="bc -ql" \
+	rsync="rsync -vrPlu" \
+	mkd="mkdir -pv" \
+	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi" \
+	ip="ip -color=auto"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	ka="killall" \
+	g="git" \
+	sdn="shutdown -h now" \
+	e="$EDITOR" \
+	v="$EDITOR" \
+	p="pacman" \
+	z="zathura"

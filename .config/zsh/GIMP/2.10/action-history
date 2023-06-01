@@ -1,0 +1,23 @@
+# GIMP action-history
+
+(history-item "image-properties" 5)
+(history-item "image-scale" 3)
+(history-item "file-save" 0)
+(history-item "file-export-as" 1)
+(history-item "file-export" 1)
+(history-item "windows-tab-position" 1)
+(history-item "file-save-as" 0)
+(history-item "file-close-all" 1)
+(history-item "windows-display-0001" 0)
+(history-item "dialogs-toolbox" 0)
+(history-item "filters-brightness-contrast" 0)
+(history-item "image-resize" 0)
+(history-item "file-open-recent-03" 0)
+(history-item "file-open-recent-05" 0)
+(history-item "file-open" 0)
+(history-item "view-zoom-out" 0)
+(history-item "tools-dodge-burn" 0)
+(history-item "tools-convolve" 0)
+(history-item "tools-paintbrush" 1)
+
+# end of action-history

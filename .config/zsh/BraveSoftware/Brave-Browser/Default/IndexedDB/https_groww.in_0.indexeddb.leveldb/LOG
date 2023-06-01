@@ -1,0 +1,15 @@
+2021/12/11-13:45:32.426 2e28 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_groww.in_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/11-13:45:32.426 2e28 Recovering log #519
+2021/12/11-13:45:32.427 2e28 Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_groww.in_0.indexeddb.leveldb/000519.log 
+2021/12/11-13:46:21.392 2e28 Level-0 table #524: started
+2021/12/11-13:46:21.394 2e28 Level-0 table #524: 70203 bytes OK
+2021/12/11-13:46:21.409 2e28 Delete type=0 #519
+2021/12/11-13:46:21.410 2e28 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/12/11-13:46:21.410 2e28 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01=\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00C\x00f\x00N\x00Z\x00-\x00I\x00Z\x00x\x000\x00-\x00S\x00l\x00V\x00c\x00V\x00g\x008\x00M\x00C\x00r\x005\x007\x005\x00z\x00v\x009\x00_\x00A\x00r\x007\x00j\x00L\x00c\x00:\x00h\x00n\x00s' @ 5591 : 1
+2021/12/11-13:46:21.410 2e28 Compacting 1@1 + 1@2 files
+2021/12/11-13:46:21.411 2e28 Generated table #525@1: 23 keys, 3099 bytes
+2021/12/11-13:46:21.411 2e28 Compacted 1@1 + 1@2 files => 3099 bytes
+2021/12/11-13:46:21.414 2e28 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/12/11-13:46:21.414 2e28 Delete type=2 #521
+2021/12/11-13:46:21.414 2e28 Delete type=2 #524
+2021/12/11-13:46:21.414 2e28 Manual compaction at level-1 from '\x00\x01\x01\x02\x01=\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00C\x00f\x00N\x00Z\x00-\x00I\x00Z\x00x\x000\x00-\x00S\x00l\x00V\x00c\x00V\x00g\x008\x00M\x00C\x00r\x005\x007\x005\x00z\x00v\x009\x00_\x00A\x00r\x007\x00j\x00L\x00c\x00:\x00h\x00n\x00s' @ 5591 : 1 .. (end); will stop at (end)

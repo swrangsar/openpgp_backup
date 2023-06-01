@@ -1,0 +1,24 @@
+2021/12/25-19:48:19.556 34e5 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.cuemath.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/25-19:48:19.556 34e5 Recovering log #6
+2021/12/25-19:48:19.556 34e5 Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.cuemath.com_0.indexeddb.leveldb/000006.log 
+2021/12/25-19:48:20.026 34e5 Level-0 table #10: started
+2021/12/25-19:48:20.027 34e5 Level-0 table #10: 529 bytes OK
+2021/12/25-19:48:20.028 34e5 Delete type=0 #6
+2021/12/25-19:48:20.028 34e5 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 97 : 1
+2021/12/25-19:48:20.028 34e5 Compacting 1@0 + 1@1 files
+2021/12/25-19:48:20.029 34e5 Generated table #11@0: 13 keys, 501 bytes
+2021/12/25-19:48:20.029 34e5 Compacted 1@0 + 1@1 files => 501 bytes
+2021/12/25-19:48:20.030 34e5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/12/25-19:48:20.030 34e5 Delete type=2 #10
+2021/12/25-19:48:20.030 34e5 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 97 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/12/25-19:48:34.944 34e6 Level-0 table #13: started
+2021/12/25-19:48:34.945 34e6 Level-0 table #13: 1068 bytes OK
+2021/12/25-19:48:34.946 34e6 Delete type=2 #7
+2021/12/25-19:48:34.946 34e6 Delete type=0 #9
+2021/12/25-19:48:34.946 34e6 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 116 : 1
+2021/12/25-19:48:34.946 34e6 Compacting 1@0 + 1@1 files
+2021/12/25-19:48:34.947 34e6 Generated table #14@0: 23 keys, 941 bytes
+2021/12/25-19:48:34.947 34e6 Compacted 1@0 + 1@1 files => 941 bytes
+2021/12/25-19:48:34.949 34e6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/12/25-19:48:34.949 34e6 Delete type=2 #13
+2021/12/25-19:48:34.949 34e6 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 116 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

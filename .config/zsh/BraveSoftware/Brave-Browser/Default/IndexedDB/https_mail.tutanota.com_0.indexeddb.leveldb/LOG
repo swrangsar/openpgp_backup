@@ -1,0 +1,14 @@
+2022/04/13-18:46:46.006 1899 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.tutanota.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/13-18:46:46.006 1899 Recovering log #4
+2022/04/13-18:46:46.007 1899 Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.tutanota.com_0.indexeddb.leveldb/000004.log 
+2022/04/13-18:46:47.198 19b0 Level-0 table #8: started
+2022/04/13-18:46:47.200 19b0 Level-0 table #8: 16804 bytes OK
+2022/04/13-18:46:47.202 19b0 Delete type=0 #4
+2022/04/13-18:46:47.202 19b0 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/13-18:46:47.202 19b0 Manual compaction at level-1 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x01\x02\x01\x0c\x00u\x00s\x00e\x00r\x00E\x00n\x00c\x00D\x00b\x00K\x00e\x00y' @ 3756 : 1
+2022/04/13-18:46:47.202 19b0 Compacting 1@1 + 1@2 files
+2022/04/13-18:46:47.204 19b0 Generated table #9@1: 32 keys, 975 bytes
+2022/04/13-18:46:47.204 19b0 Compacted 1@1 + 1@2 files => 975 bytes
+2022/04/13-18:46:47.205 19b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/13-18:46:47.205 19b0 Delete type=2 #8
+2022/04/13-18:46:47.205 19b0 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x0c\x00u\x00s\x00e\x00r\x00E\x00n\x00c\x00D\x00b\x00K\x00e\x00y' @ 3756 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

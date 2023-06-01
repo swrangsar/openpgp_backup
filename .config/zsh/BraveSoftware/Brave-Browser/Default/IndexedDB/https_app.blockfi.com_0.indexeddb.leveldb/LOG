@@ -1,0 +1,15 @@
+2021/10/03-18:31:41.094 29c3 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.blockfi.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/10/03-18:31:41.094 29c3 Recovering log #871
+2021/10/03-18:31:41.095 29c3 Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.blockfi.com_0.indexeddb.leveldb/000871.log 
+2021/10/03-18:33:36.716 29c3 Level-0 table #876: started
+2021/10/03-18:33:36.717 29c3 Level-0 table #876: 2551 bytes OK
+2021/10/03-18:33:36.719 29c3 Delete type=0 #871
+2021/10/03-18:33:36.720 29c3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/10/03-18:33:36.720 29c3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 3844 : 1
+2021/10/03-18:33:36.720 29c3 Compacting 1@1 + 1@2 files
+2021/10/03-18:33:36.722 29c3 Generated table #877@1: 69 keys, 1409 bytes
+2021/10/03-18:33:36.722 29c3 Compacted 1@1 + 1@2 files => 1409 bytes
+2021/10/03-18:33:36.724 29c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/10/03-18:33:36.724 29c3 Delete type=2 #876
+2021/10/03-18:33:36.724 29c3 Delete type=2 #873
+2021/10/03-18:33:36.724 29c3 Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 3844 : 1 .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2022/03/11-19:19:52.764 121d Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.wsj.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/11-19:19:52.764 121d Recovering log #4
+2022/03/11-19:19:52.764 121d Reusing old log /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.wsj.com_0.indexeddb.leveldb/000004.log 
+2022/03/11-19:19:53.870 121e Level-0 table #8: started
+2022/03/11-19:19:53.871 121e Level-0 table #8: 7126 bytes OK
+2022/03/11-19:19:53.873 121e Delete type=0 #4
+2022/03/11-19:19:53.873 121e Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,6 @@
+2022/01/04-07:25:30.228 2b57 Creating DB /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fortune.com_0.indexeddb.leveldb since it was missing.
+2022/01/04-07:25:30.231 2b57 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fortune.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/01/04-07:26:12.192 2bdd Level-0 table #5: started
+2022/01/04-07:26:12.193 2bdd Level-0 table #5: 2143 bytes OK
+2022/01/04-07:26:12.195 2bdd Delete type=0 #3
+2022/01/04-07:26:12.195 2bdd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

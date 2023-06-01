@@ -1,0 +1,6 @@
+2021/06/14-12:57:32.840 f33 Creating DB /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wallet.nimiq.com_0.indexeddb.leveldb since it was missing.
+2021/06/14-12:57:32.843 f33 Reusing MANIFEST /home/swrangsar/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wallet.nimiq.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/14-12:57:37.727 fec Level-0 table #5: started
+2021/06/14-12:57:37.729 fec Level-0 table #5: 3916 bytes OK
+2021/06/14-12:57:37.730 fec Delete type=0 #3
+2021/06/14-12:57:37.730 fec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
