@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 gpg --refresh-keys --keyserver hkps://keys.openpgp.org
 
@@ -11,6 +11,6 @@ cd $HOME/repos/openpgp_backup &&
 	git status &&
 	git push
 
-rsync -axPuv $HOME/.config/zsh/.* .config/zsh/
+# rsync -axPuv $HOME/.config/zsh/  $HOME/repos/openpgp_backup/.config/zsh/
 
 pkill -RTMIN+5 dwmblocks
